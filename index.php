@@ -94,7 +94,6 @@
         <div class="menu">
             <ul class="menu-nav">
             <?php
-            // var_dump($menu);
             foreach ($menu as $value) {
             ?>
                 <li class="list-item">
@@ -110,11 +109,17 @@
     <main>
         <div class="container">
             <ul>
+            <?php
+            foreach ($faqs as $value) {
+            ?>
                 <li>
-                    <h3></h3>
-                    <p></p>
+                    <h3><?php echo $value['domanda'] ?></h3>
+                    <p><?php echo $value['risposta'] ?></p>
                 </li>
             </ul>
+            <?php
+            }
+            ?>
         </div>
     </main> 
 </body>
