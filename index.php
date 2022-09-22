@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Faq Google</title>
 </head>
 <body>
@@ -88,8 +89,8 @@
 
     <header>
         <div class="logo">
-            <img src="" alt="">
-            <a href="">Privacy e Termini</a>    
+            <img src="./Google_2015_logo.svg.png" alt="" height="24px" width="74px">
+            <a href="">Privacy e Termini</a>
         </div>
         <div class="menu">
             <ul class="menu-nav">
